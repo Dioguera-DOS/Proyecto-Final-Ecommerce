@@ -49,7 +49,7 @@ const { config } = require('./config/config');
 const {CustomError, TYPES_ERROR} = require('./errors');
 const { throws } = require('assert');
 
-const PORT = config.PORT
+const PORT = config.PORT 
 const DBNAME = config.DBNAME
 const MONGO_URL = config.MONGO_URL
 
